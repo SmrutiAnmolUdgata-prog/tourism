@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="shortcut icon" href="fav_travel.png" type="image/x-icon" />
+    <style>
+      body {
+        padding: 0px;
+        margin: 20px;
+        background-color: blanchedalmond;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: center;
+        background-color: skyblue;
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+        justify-items: center;
+      }
+      header {
+        margin: 0px auto;
+        max-width: 1200px;
+        text-align: center;
+        font-family: monotype corsiva;
+        letter-spacing: 0.5em;
+        color: brown;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid white;
+        box-shadow: 0px 5px 5px 5px white;
+      }
+      article {
+        align-self: center;
+      }
+      main > article:nth-child(1) {
+        grid-column: span 2;
+      }
+      main > article:nth-child(6) {
+        grid-column: span 2;
+      }
+      @media screen and (max-width: 412px) {
+        article {
+          grid-column: span 2;
+        }
+      }
+      article > p {
+        color: black;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ODISHA TOURISM</h1>
+    </header>
+    <main>
+      <article>
+        <img
+          src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/12/16180328/Sun-Temple-1600x900.jpg"
+          alt=""
+        />
+        <p>
+          Konark is a medium town in the Puri district in the state of Odisha,
+          India. It lies on the coast by the Bay of Bengal, 65 kilometres from
+          the capital of the state, Bhubaneswar.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://www.financialexpress.com/wp-content/uploads/2024/07/Puri-Jagannath-temple.jpg"
+          alt=""
+        />
+        <p>
+          Puri, also known as, Jagannath Puri, is a coastal city and a
+          municipality in the state of Odisha in eastern India. It is the
+          district headquarters of Puri district and is situated on the Bay of
+          Bengal, 60 kilometres south of the state capital of Bhubaneswar.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://placeoftourism.com/wp-content/uploads/2024/03/Lingaraj-temple.webp"
+          alt=""
+        />
+        <p>
+          Lingaraja Temple is a Hindu temple dedicated to Shiva and is one of
+          the oldest temples in Bhubaneswar, the capital of the Indian state of
+          Odisha, India.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://bhubaneswartourism.in/images/places-to-visit/headers/nandankanan-zoological-park-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+          alt=""
+        />
+        <p>
+          Nandankanan is the first zoo in India with a white tiger safari. It
+          provides unique situation where the visitors are confined in a vehicle
+          and the animals roam in the open jungle. A twenty-minute drive through
+          the meandering roads crisscrossing the natural forest in a special
+          protected vehicle takes the visitors straight into the pride of lion
+          in the lion safari. Also visitors can avail opertunity to slight sloth
+          bears in their natural habitat through safari bus service.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://s7ap1.scene7.com/is/image/incredibleindia/chilika-lake-bhubaneshwar-odisha-3-atttr-hero?qlt=82&ts=1727010856968"
+          alt=""
+        />
+        <p>
+          Chilika Lake is the largest brackish water lagoon in Asia and second
+          largest coastal lagoon in the world, covering an area of over 1,100
+          square kilometres.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://s7ap1.scene7.com/is/image/incredibleindia/odisha-state-maritime-museum-cuttack-odisha-3-attr-hero?qlt=82&ts=1726663545071"
+          alt=""
+        />
+        <p>
+          The maritime museum offers a splendid look at the ancient voyages from
+          the coast of Odisha to Java, Sumatra, Bali etc.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
